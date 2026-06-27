@@ -1,0 +1,6 @@
+{"customerId":"c-1","items":[{"sku":"SKU-KB","quantity":2}]}
+{"orderId":"ord-1001","customerId":"c-2","items":[{"sku":"SKU-MS","quantity":1},{"sku":"SKU-MON","quantity":1}]}
+{ this line is not valid json and will be dropped at parse
+{"customerId":"","items":[{"sku":"SKU-KB","quantity":1}]}
+{"customerId":"c-3","items":[{"sku":"UNKNOWN","quantity":1}]}
+{"customerId":"c-4","items":[{"sku":"SKU-KB","quantity":1},{"sku":"SKU-MS","quantity":3}]}
